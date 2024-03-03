@@ -1,17 +1,17 @@
-#Դ�ļ�Ŀ¼
+#源文件目录
 SRCCODEDIRS   :=../code/src/func \
                 ../code/src/com \
 	
 
-#ͷ�ļ�Ŀ¼
+#头文件目录
 SRCHEADDIRS   :=../code/inc/func \
 				../code/inc/com \
 
-#lib�ļ�Ŀ¼
+#lib文件目录
 LIBFILEDIRS := ../lib/libs
 
-#libͷ�ļ�Ŀ¼
+#lib头文件目录
 LIBHEADDIRS := ../lib/inc/
 
-#lib�ļ�
+#lib文件
 LIBFILE := -lmylib
