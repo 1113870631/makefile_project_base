@@ -53,12 +53,8 @@ $(TARGETNAME):$(OBJFILE)
 	@echo $(TMPBUILDTM)
 	
 %.o: %.c
-	@echo ""
-	@echo "start " $< "......compiling"
-	@$(CC) $(CURCMPLMACRO) $(CFLAGS) $(CURSRCHEADDIRS) $(CURLIBHEADDIRS) $< -o $@
-	@echo "created " $@
-	@echo "end   " $< "......compiled ok"
-	@echo ""
+	$(CC) $(CURCMPLMACRO) $(CFLAGS) $(CURSRCHEADDIRS) $(CURLIBHEADDIRS) $< -o $@
+
 
 .PHONY: arm clean
 
